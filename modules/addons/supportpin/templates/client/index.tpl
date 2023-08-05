@@ -18,7 +18,7 @@
 <div style="text-align: center;">
     <div style="font-size: 35px; margin: 50px;">{$lang_client_title}</div>
 
-    <div id="sPIN" style="font-size: 55px; color: greenyellow; margin: 50px;">{$tplVars.supportpin}</div>
+    <div id="sPIN" style="font-size: 55px; color: Black; margin: 50px;">{$tplVars.supportpin}</div>
 
     <p>{$lang_client_info}</p>
 

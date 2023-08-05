@@ -54,7 +54,7 @@ add_hook('ClientAreaPrimarySidebar', 1, function($primarySidebar) {
 
         // For Lagom Theme
         $supportPinMenu->setBodyHtml('
-<span id="sPIN" style="font-size: 35px; color: greenyellow;">' . $supportPin . '</span>
+<span id="sPIN" style="font-size: 35px; color: Black;">' . $supportPin . '</span>
 <span style="font-size: 20px;margin-left: 7px;"><a href="#" onclick="RenewPIN()"><i class="fas fa-sync-alt"></i></a></span>
 <script>
 function Request(url, callback){
@@ -84,7 +84,7 @@ function RenewPIN(){
         // For default Themes
         /*$supportPinMenu->setBodyHtml('
 <div style="text-align: center;">
-<div style="font-size: 35px; color: greenyellow;">' . $supportPin . '</div>
+<div style="font-size: 35px; color: Black;">' . $supportPin . '</div>
 <br>
 <a href="index.php?m=supportpin" class="btn btn-success btn-sm"><i class="fas fa-sync-alt"></i></a>
 </div>
